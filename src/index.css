@@ -1,13 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #23252C;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+main {
+  border-radius: 10px 10px 10px 10px;
+  width: 320px;
+  background-color: #1A1B21;
+  margin: 24px auto;
+  padding-top: 12px;
+}
+
+.img--picture {
+  display: flex;
+  width: 72px;
+  height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.information {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 32px 32px 32px;
+}
+
+.information--name {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.information--designation {
+  font-size: 13px;
+  line-height: 16px;
+  color: #F3BF99;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.information--email {
+  width: 100%;
+  height: 34px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 4px;
+
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+}
+
+.information--subheading {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F5F5F5;
+  margin-top: 20px;
+}
+
+.information--subtext {
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+  margin-top: 4px;
+}
+
+footer {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.img--social-icon {
+  margin: 12px;
+  border-radius: 4px;
+  width: 25px;
+  height: 25px;
 }
